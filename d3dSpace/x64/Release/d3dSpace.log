@@ -1,0 +1,64 @@
+﻿  App.cpp
+D:\Program Files\Visual Studio 2019 Professional\VC\Tools\MSVC\14.29.30133\include\memory(3382,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+D:\netease_1\2.directX\d3dSpace\d3dSpace\App.cpp(26): message : see reference to function template instantiation 'std::unique_ptr<Vehicle,std::default_delete<Vehicle>> std::make_unique<Vehicle,Window&,Earth*,Moon*,double,0>(Window &,Earth *&&,Moon *&&,double &&)' being compiled
+  Vehicle.cpp
+  Bindable.cpp
+  Camera.cpp
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Camera.cpp(225,19): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Camera.cpp(229,19): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  Drawable.cpp
+  dxerr.cpp
+  DxgiInfoManager.cpp
+  Earth.cpp
+  GDIPlusManager.cpp
+  Graphics.cpp
+  ImguiManager.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  IndexBuffer.cpp
+  InputLayout.cpp
+  Keyboard.cpp
+  Compiling...
+  Moon.cpp
+  mouse.cpp
+  myException.cpp
+  myTimer.cpp
+  PixelShader.cpp
+  Sun.cpp
+  Sampler.cpp
+  SkinnedBox.cpp
+  SolidSphere.cpp
+  Surface.cpp
+  Texture.cpp
+  Topology.cpp
+  TransformCbuf.cpp
+  VertexBuffer.cpp
+  VertexShader.cpp
+  Window.cpp
+  WindowsMessageMap.cpp
+  WinMain.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Earth.h(18): warning C4172: returning address of local variable or temporary
+D:\netease_1\2.directX\d3dSpace\d3dSpace\SkinnedBox.h(16): warning C4172: returning address of local variable or temporary
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Vehicle.h(85): warning C4172: returning address of local variable or temporary
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Moon.h(19): warning C4172: returning address of local variable or temporary
+  All 3524 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  d3dSpace.vcxproj -> D:\netease_1\2.directX\d3dSpace\x64\Release\d3dSpace.exe

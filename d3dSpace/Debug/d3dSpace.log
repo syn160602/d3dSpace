@@ -1,0 +1,60 @@
+﻿  compilation object save succeeded; see D:\netease_1\2.directX\d3dSpace\d3dSpace\MoonPhongPS.cso
+  compilation object save succeeded; see D:\netease_1\2.directX\d3dSpace\d3dSpace\TexBgPS.cso
+  compilation object save succeeded; see D:\netease_1\2.directX\d3dSpace\d3dSpace\TexBgVS.cso
+  compilation object save succeeded; see D:\netease_1\2.directX\d3dSpace\d3dSpace\TexPhongSpecMapPS.cso
+  compilation object save succeeded; see D:\netease_1\2.directX\d3dSpace\d3dSpace\EarthPhongPS.cso
+  compilation object save succeeded; see D:\netease_1\2.directX\d3dSpace\d3dSpace\TexturedPS.cso
+  compilation object save succeeded; see D:\netease_1\2.directX\d3dSpace\d3dSpace\TexturedVS.cso
+  App.cpp
+  Vehicle.cpp
+  Bindable.cpp
+  Camera.cpp
+  Drawable.cpp
+  DxgiInfoManager.cpp
+  Earth.cpp
+  Graphics.cpp
+  imgui_impl_dx11.cpp
+  IndexBuffer.cpp
+  InputLayout.cpp
+  Moon.cpp
+  mouse.cpp
+  PixelShader.cpp
+  Sun.cpp
+  Sampler.cpp
+  SkinnedBox.cpp
+  SolidSphere.cpp
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Camera.cpp(61,26): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Camera.cpp(61,16): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Texture.cpp
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Camera.cpp(225,19): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Camera.cpp(229,19): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  Topology.cpp
+  TransformCbuf.cpp
+  VertexBuffer.cpp
+  VertexShader.cpp
+  Window.cpp
+  WinMain.cpp
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Earth.h(18): warning C4172: returning address of local variable or temporary
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Moon.h(19): warning C4172: returning address of local variable or temporary
+D:\netease_1\2.directX\d3dSpace\d3dSpace\Vehicle.h(85): warning C4172: returning address of local variable or temporary
+D:\Program Files\Visual Studio 2019 Professional\VC\Tools\MSVC\14.29.30133\include\memory(3382,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ] (compiling source file App.cpp)
+D:\netease_1\2.directX\d3dSpace\d3dSpace\App.cpp(26): message : see reference to function template instantiation 'std::unique_ptr<Vehicle,std::default_delete<Vehicle>> std::make_unique<Vehicle,Window&,Earth*,Moon*,double,0>(Window &,Earth *&&,Moon *&&,double &&)' being compiled
+D:\netease_1\2.directX\d3dSpace\d3dSpace\SkinnedBox.h(16): warning C4172: returning address of local variable or temporary
+Vehicle.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "public: __thiscall Vehicle::Vehicle(class Window &,class Earth *,class Moon *,float)" (??0Vehicle@@QAE@AAVWindow@@PAVEarth@@PAVMoon@@M@Z)
+Vehicle.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "public: __thiscall Vehicle::Vehicle(class Window &,class Earth *,class Moon *,float)" (??0Vehicle@@QAE@AAVWindow@@PAVEarth@@PAVMoon@@M@Z)
+Vehicle.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) referenced in function "public: __thiscall Vehicle::Vehicle(class Window &,class Earth *,class Moon *,float)" (??0Vehicle@@QAE@AAVWindow@@PAVEarth@@PAVMoon@@M@Z)
+Vehicle.obj : error LNK2019: unresolved external symbol _aiGetMaterialTexture referenced in function "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
+assimp\lib\assimp-vc142-mtd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\netease_1\2.directX\d3dSpace\Debug\d3dSpace.exe : fatal error LNK1120: 4 unresolved externals
